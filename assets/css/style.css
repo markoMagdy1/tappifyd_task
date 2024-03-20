@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --bg-color:#0F1E35;
+    --second-bg-color: #0b2545;
+    --text-color:#f1f6f9;
+    /* --main-color:#; */
+}
+
+ *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta Malar", sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+
+}
+
+html{
+    /* font-size: 62.5%; */
+    overflow-x: hidden;
+}
+
+
+body
+{
+    background-color: #C7DBE6;
+    color: var(--text-color);
+}
+section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.home-video{
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+h1{
+    width: 75%;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+.home-section{
+    position: relative;
+    /* margin-bottom: 10px; */
+}
+.home-content{
+    position: relative;
+    top: 15%;
+    left: 5%;
+    overflow: hidden;
+    z-index: 9999;
+}
+.btn-out-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+.btn-out-line i{
+    font-size: 2rem;
+}
+.title-body{
+    /* width: 75%; */
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+    /* font-weight: 700; */
+    /* margin-bottom: 40px; */
+}
+.title-body-small{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.slider img{
+    width: 120px;
+    /* margin-right: 50px !important; */
+}
+.slick-dots {
+    position: absolute;
+    bottom: -40px; 
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.slick-dots li button:before {
+    display: none;
+}
+
+/* Style for each dot */
+.slick-dots li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+/* Style for the dot button */
+.slick-dots li button {
+    background-color: #e6badf; 
+    outline: none; 
+    width: 10px;
+    height: 10px; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.slick-dots li.slick-active button {
+    background-color:#f1f6f9;
+    width: 20px;
+    border-radius: 20px;
+}
+
+/* ///////////////////////////////// section 2 */
+/* .section-2{
+    background-color: #C7DBE6;
+} */
+.about-container{
+    margin-bottom: 50px;
+
+}
+.about{
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    background-color: var(--second-bg-color);
+}
+.big-text{
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--second-bg-color);
+    margin-bottom: 50px;
+    line-height: 1;
+}
+.middle-text{
+    font-size: 1.7rem;
+    color: var(--second-bg-color);
+    margin-bottom: 50px;
+}
+.btn-more{
+    background: #496ddb;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    margin-right: 20px;
+    color: var(--text-color);
+}
+.btn-careers{
+    background: #0b2545;
+    color: var(--text-color);
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 1.7rem;
+}
+.btn-more:hover,.btn-careers:hover{
+    background-color: var(--text-color);
+    color: var(--second-bg-color);
+}
+#image {
+    transition: height 1s ease-in-out; /* Smooth transition for height change */
+  }
+#image2 {
+    transition: top 1s ease-in-out; /* Smooth transition for height change */
+  }
+.person{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70%;
+    height: 30%;
+    
+}
+.person2{
+    border-radius: 400px;
+    object-fit: cover;
+    width: 50%;
+    height: 30%;
+}
+
+.content-wrapper{
+    background-color: var(--second-bg-color);
+    border-radius: 15px;
+    padding: 25px;
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 15px;
+
+}
+.content-wrapper span{
+    display: block;
+    color: var(--text-color);
+    font-size: 3rem;
+}
+.wrapper2{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    padding-bottom: 50px;
+    width: 30%;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+}
+.sun{
+    position: absolute;
+    top:5%;
+    right: -30%;
+    z-index: -1;
+}
+.section2-content{
+    position: relative;
+}
